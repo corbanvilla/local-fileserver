@@ -6,4 +6,4 @@ It indexes the whole directory tree on boot, to reload this it requires a contai
 
 Run the docker container with something like this:
 
-'''docker run -it -p 80:80 -v /home/animcogn/data/:/data --tmpfs /usr/share/nginx/html animcogn/local-fileserver:1.0'''
+```docker run -it -p 80:80 -v /home/animcogn/data/:/data --tmpfs /usr/share/nginx/html animcogn/local-fileserver:1.0```
